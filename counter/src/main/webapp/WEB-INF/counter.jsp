@@ -9,7 +9,8 @@
 <title>Current visit count</title>
 </head>
 <body>
-	<p>You have visited <a href="/practice/">http://practic/</a> <c:out value="${count}"/> times!</p><br>
-	<a href="/practice/">Test another visit</a>
+	<p>You have visited <a href="/practice/">http://practice/</a> <c:out value="${count}"/> times!</p><br>
+	<a href="/practice/">Test another visit</a><br>
+	<a href="/practice/reset">Reset Count</a>
 </body>
 </html>

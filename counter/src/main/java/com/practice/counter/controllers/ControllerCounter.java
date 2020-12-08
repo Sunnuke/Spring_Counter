@@ -1,4 +1,4 @@
-package com.practice.counter;
+package com.practice.counter.controllers;
 
 import javax.servlet.http.HttpSession;
 
@@ -39,9 +39,9 @@ public class ControllerCounter {
 	}
 	
 	@RequestMapping("/reset")
-	public String reset(HttpSession session, Model model) {
+	public String reset(HttpSession session) {
 		session.setAttribute("count", 0);
-		return "/practice/counter";
+		return "redirect:/practice/counter";
 		
 	}
 
