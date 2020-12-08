@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Welcome, Again</title>
 </head>
 <body>
-
+	<p>Welcome User!!!</p>
+	<a href="/practic/counter/">Counter</a>
 </body>
 </html>
