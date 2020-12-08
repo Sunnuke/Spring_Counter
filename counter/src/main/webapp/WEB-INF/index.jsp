@@ -8,6 +8,6 @@
 </head>
 <body>
 	<p>Welcome User!!!</p>
-	<a href="/practic/counter/">Counter</a>
+	<a href="/practice/counter/">Counter</a>
 </body>
 </html>
